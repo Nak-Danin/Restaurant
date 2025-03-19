@@ -28,11 +28,27 @@
     }
     .context{
         position: absolute;
-        top: 25%;
+        top: 30%;
         left: 5%;
         font-size: 30px;
         color: white;
         width: 200px;
+        line-height: 50px;
+    }
+    .Discover{
+        position: absolute;
+        bottom: 16%;
+        left: 10%;
+        padding-inline: 10px;
+        border-radius: 15px;
+        font-size: 18px;
+    }
+    .vdoPlay,.vdoPause{
+        font-size: 20px;
+        position: absolute;
+        bottom: 15%;
+        right: 10%;
+        padding-inline: 13px;
     }
     .sidebar{
         width: 100%;
@@ -189,6 +205,12 @@
         background-color: rgb(48, 47, 47);
         border-bottom: 2px solid white;
         border-top: 2px solid white;
+        font-size:20px;
+        .shop-logo{
+            h3{
+                font-size: 30px;
+            }
+        }
     }
     .darkeffect{
         position: absolute;
@@ -199,11 +221,27 @@
     }
     .context{
         position: absolute;
-        bottom: 30%;
-        left: 3%;
-        font-size: 60px;
+        top: 30%;
+        left: 5%;
+        font-size: 65px;
         color: white;
-        width: 400px;
+        width: 500px;
+        line-height: 100px;
+    }
+    .Discover{
+        position: absolute;
+        bottom: 16%;
+        left: 10%;
+        padding-inline: 10px;
+        border-radius: 15px;
+        font-size: 30px;
+    }
+    .vdoPlay,.vdoPause{
+        font-size: 30px;
+        position: absolute;
+        bottom: 15%;
+        right: 15%;
+        padding-inline: 15px;
     }
     .sidebar{
         width: 100%;

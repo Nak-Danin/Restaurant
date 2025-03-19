@@ -62,13 +62,46 @@
 }
 .context{
     position: absolute;
-    bottom: 45%;
-    left: 10%;
+    bottom: 40%;
+    left: 8%;
     color: white;
-    font-size: 70px;
+    font-size: 80px;
     font-family: "Delius Swash Caps", cursive;
-    width: 600px;
+    width: 700px;
     text-shadow: 10px 10px 10px black;
+    line-height: 140px;
+}
+.Discover{
+  position: absolute;
+  bottom: 21%;
+  left: 15%;
+  padding-inline: 15px;
+  border-radius: 15px;
+  font-family: "Inconsolata", monospace;
+  font-size: 30px;
+}
+.Discover:hover{
+  background-color: rgba(255, 253, 253, 0.715);
+  color: black;
+  font-weight: 500;
+}
+.vdoPlay, .vdoPause{
+  font-size: 30px;
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+  padding-inline: 15px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.vdoPause{
+  display: none;
+}
+.vdoPause:hover, .vdoPlay:hover{
+  background-color: rgba(128, 128, 128, 0.766);
+  color: rgb(245, 242, 242) ;
+  border: 1px solid white;
 }
 .sidebar{
   z-index: 1000;

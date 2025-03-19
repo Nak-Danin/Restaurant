@@ -221,3 +221,18 @@ addtoCart.forEach((item)=>{
         item.innerHTML = `Added <i style="color: red;" class="fa-solid fa-cart-shopping"></i>`
     })
 })
+
+//vdoStatus
+const vdo = document.querySelector(".intro");
+const play = document.querySelector(".vdoPlay");
+const pause = document.querySelector(".vdoPause");
+play.addEventListener("click",()=>{
+    play.style.display = "none";
+    pause.style.display = "block";
+    vdo.pause();
+})
+pause.addEventListener("click",()=>{
+    play.style.display = "block";
+    pause.style.display = "none";
+    vdo.play();
+})
