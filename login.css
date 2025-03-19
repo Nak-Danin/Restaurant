@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(https://wallpapers.com/images/hd/food-4k-m37wpodzrcbv5gvw.jpg) center center/cover;
+}
+.col-lg-4{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.553);
+}
+.email, .password{
+    position: relative;
+}
+#labelEmail, #labelPass{
+    position: absolute;
+    font-size: 18px;
+    top: 17%;
+    left: 10px;
+    text-shadow: 0 0 2px white;
+    transition: 0.3s ease-in-out;
+    color: #131414b7;
+}
+#forgotpassword{
+    color: rgba(0, 0, 0, 0.667);
+}
+#forgotpassword:hover{
+    color: #131414;
+}
+#icon,#eye-slash,#eye{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    z-index: 1;
+}
+.NoAcc:hover{
+    background-color: rgba(15, 182, 127, 1);
+    border: 1px solid rgb(252, 249, 249);
+}
